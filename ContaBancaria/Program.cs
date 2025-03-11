@@ -20,6 +20,7 @@ class ContaBancaria {
     }
 
     public void sacar (double saque) {
+        if (saque <= valor)
         valor = valor - saque;
     }
 
